@@ -24,4 +24,4 @@ clf_lr = clf_lr.fit(train_vect, train_label)
 pr_lr = clf_lr.predict(test_vect)
 print(clf_lr.score(test_vect, test_label))
 #sample score: 0.959447799827
-close(file)
+file.close()
